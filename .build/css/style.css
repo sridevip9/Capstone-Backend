@@ -1,0 +1,71 @@
+.top-bar {
+    margin-bottom: 20px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    color: #0d1b51;
+}
+
+.book {
+    text-align: center;
+}
+
+.book p {
+    text-align: justify;
+}
+
+.book h4 {
+    margin-top: 15px;
+    color: #273ae5;
+}
+
+.bookinfo {
+    text-align: center;
+}
+
+img {
+    border: 1px double black;
+    width: 250px;
+    height: 250px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.menu li a:hover {
+    color: #660606;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.price span {
+    color: #d81a1a;
+    background: lavender;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 span {
+    font-size: 18px;
+}

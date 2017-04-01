@@ -1,0 +1,16 @@
+{>"layouts/master" /}
+
+{<title}
+   About Kidzbook Store
+{/title}
+
+{<body}
+   <div class="row">
+        <div class="large-12 columns">
+          <h2>About Us </h2>
+          <p>About Kids Books publishes books that children will want to read again and again. Our books are of the highest quality as we believe children deserve the best.Kidsbooks markets our books primarily to blue-chip retailers, schools, libraries, and special markets.</p>
+          <p>Kidsbooks is a privately held, successful publisher of high-quality, fiction and non-fiction children's books. All titles are educationally sound and incorporate "fun" as a learning tool. About 100 new titles are published each year, complementing an active backlist library of over 500 "evergreen" titles. Formats include softcover, hardcover, board, and lift-the-flap books</p>
+          <p>At Kidsbooks, we believe that learning can be fun!</p>
+        </div>
+    </div>    
+{/body}
