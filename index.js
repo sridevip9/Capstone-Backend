@@ -26,7 +26,7 @@ options = {
 
 app = module.exports = express();
 app.use(kraken(options));
-//connect-flash
+
 
 app.use(flash());
 app.use(function(req, res, next) {
