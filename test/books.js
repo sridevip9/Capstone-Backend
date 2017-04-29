@@ -33,7 +33,7 @@ describe('/books/details/58dfcfc9a460e620427c6802', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('http://localhost:8000/')
+            .get(' ')
             .expect(200)
             .expect('Content-Type', /html/)
 

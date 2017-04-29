@@ -48,3 +48,43 @@ Visit http://localhost:8000
 
 http://foundation.zurb.com download the foundation6 and grab css, js files include in the project.
 
+Tools:
+Node js
+Express
+Kraken js
+MongoDB
+mongoose
+foundation.css
+foundation.js
+
+Structure of a Project:
+
+/config  
+Application configuration including environment-specific configs
+
+/controllers
+Routes and logic
+
+/locales
+Language specific content bundles
+
+/lib
+Common libraries to be used across your app
+
+/models
+Models
+
+/public
+Web resources that are publicly available
+
+/public/templates
+Server and browser-side templates
+
+/tasks
+Grunt tasks to be automatically registered by [grunt-config-dir](https://github.com/logankoester/grunt-config-dir)
+
+/tests
+Unit and functional test cases
+
+index.js
+Application entry point
