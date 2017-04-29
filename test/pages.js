@@ -9,7 +9,7 @@ var kraken = require('kraken-js'),
     request = require('supertest');
 
 
-describe('index', function() {
+describe('/about', function() {
 
     var app, mock;
 
@@ -38,10 +38,11 @@ describe('index', function() {
             .expect(200)
             .expect('Content-Type', /html/)
             .expect(/Hello, /)
-            .end(function(err, res) {
-                done(err);
-            });
-        //done();
+
+        .end(function(err, res) {
+            done(err);
+        });
+        // done();
     });
 
 });
