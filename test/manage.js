@@ -33,7 +33,7 @@ describe('/books', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/books')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 
@@ -71,7 +71,7 @@ describe('/books/add', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/books/add')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 
@@ -110,7 +110,7 @@ describe('/books/edit/58dfcfc9a460e620427c6803', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/books/edit')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 
@@ -149,7 +149,7 @@ describe('/categories', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/categories')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 
@@ -226,7 +226,7 @@ describe('/categories/edit/58dfcf00a460e620427c67f9', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/categories/edit')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 

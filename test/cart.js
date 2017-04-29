@@ -33,7 +33,7 @@ describe('/cart', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/cart')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 
@@ -47,7 +47,7 @@ describe('/cart', function() {
 
 });
 
-describe('/58dfcfc9a460e620427c6802', function() {
+describe('cart/58dfcfc9a460e620427c6802', function() {
 
     var app, mock;
 
@@ -71,7 +71,7 @@ describe('/58dfcfc9a460e620427c6802', function() {
 
     it('should say "hello"', function(done) {
         request(mock)
-            .get('/58dfcfc9a460e620427c6802')
+            .get('')
             .expect(200)
             .expect('Content-Type', /html/)
 
